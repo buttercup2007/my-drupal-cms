@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <head-placeholder token="{{ placeholder_token}}">
-    <title>{{head title}}</title>
-    <css-placeholder token="{{ placeholder_token }}">
-    <js-placeholder token="{{ placeholder_token}}">
-</head>
-
-<body>
-
-    <header class="site-header">
+<header class="site-header">
         <div class="container">
             <h1 class="site-logo">Petra</h1>
 
@@ -24,7 +13,7 @@
 
     <main>
 
-        <selection class="hero">
+        <section class="hero">
             <div class="container">
                 <p class="hero-intro">Hallo, ik ben Petra</p>
 
@@ -33,13 +22,12 @@
                 <p>
                     ik leer en bouw websites met PHP,
                     Symfony, Drupal, javascript, Vue en SQL.</p>
-                </p>
                 
                 <a class="button" href="#projecten">
                     Mijn projecten
                 </a>
             </div>
-        </selection>
+        </section>
 
         <section id="over-mij" class="section">
             <div class="container">
@@ -60,13 +48,13 @@
 
                 <div class="project-grid">
 
-                    <articale class="project-card">
+                    <article class="project-card">
                         <h3>Drupal Portofolio</h3>
                         <p>
                             Mijn eigen portofolio website gebouwd
                             met Drupal, Twig, PHP en CSS.
                         </p>
-                    </articale>
+                    </article>
 
                     <article class="project-card">
                         <h3>Symfony Wedstrijden</h3>
@@ -75,11 +63,11 @@
                         </p>
                     </article>
 
-                    <artical class="project- card">
+                    <article class="project-card">
                         <h3>Studiefinanciering</h3>
                         <p>Een interactieve website gemaakt met laravel, 
                            Vue en PHP</p>
-                    </artical>
+                    </article>
                 </div>
             </div>
         </section>
@@ -98,11 +86,6 @@
 
     <footer class="site-footer">
         <div class="container">
-            <p>© {{ "now"|date("Y") }} Petra Nedeljkovic</p>
+            <p>Â© {{ "now"|date("Y") }} Petra Nedeljkovic</p>
         </div>
     </footer>
-    
-    <js-bottom-placeholder token="{{ placeholder_token }}">
-
-</body>
-</html>
