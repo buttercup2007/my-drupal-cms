@@ -1,0 +1,8 @@
+name: Portofolio
+type: theme
+description: 'Mijn eigen Drupal portofolio theme'
+core_version_requirement: ^10 || ^11
+base theme: olivero
+
+libraries:
+ - portofolio/global
