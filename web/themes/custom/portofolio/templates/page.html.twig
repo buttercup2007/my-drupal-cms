@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head-placeholder token="{{ placeholder_token}}">
+    <title>{{head title}}</title>
+    <css-placeholder token="{{ placeholder_token }}">
+    <js-placeholder token="{{ placeholder_token}}">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-logo">Petra</h1>
+
+            <nav class="site-navigation">
+                <a href="/">home</a>
+                <a href= "#over-mij">Over mij</a>
+                <a href= "#projecten">Projecten</a>
+                <a href= "#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <selection class="hero">
+            <div class="container">
+                <p class="hero-intro">Hallo, ik ben Petra</p>
+
+                <h2>Software Developer</h2>
+
+                <p>
+                    ik leer en bouw websites met PHP,
+                    Symfony, Drupal, javascript, Vue en SQL.</p>
+                </p>
+                
+                <a class="button" href="#projecten">
+                    Mijn projecten
+                </a>
+            </div>
+        </selection>
+
+        <section id="over-mij" class="section">
+            <div class="container">
+                <h2>Over mij</h2>
+
+                <p>
+                    Ik ben een software development student die
+                    graag websites en applicaties bouwt. Ik vind 
+                    het leuk om problemen op te lossen en nieuwe
+                    technologie te leren.
+                </p>
+            </div>
+        </section>
+
+        <section id="projecten" class="section projects">
+            <div class="container">
+                <h2>Mijn projecten</h2>
+
+                <div class="project-grid">
+
+                    <articale class="project-card">
+                        <h3>Drupal Portofolio</h3>
+                        <p>
+                            Mijn eigen portofolio website gebouwd
+                            met Drupal, Twig, PHP en CSS.
+                        </p>
+                    </articale>
+
+                    <article class="project-card">
+                        <h3>Symfony Wedstrijden</h3>
+                        <p>Een applicatie waarin wedstrijdgegevens uit
+                            een databased worden opgehaald en weergegeven.
+                        </p>
+                    </article>
+
+                    <artical class="project- card">
+                        <h3>Studiefinanciering</h3>
+                        <p>Een interactieve website gemaakt met laravel, 
+                           Vue en PHP</p>
+                    </artical>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+            <h2>Contact</h2>
+
+            <p>Meer informatie over mijn projecten en ontwikkeling
+                volgt binnenkort.
+            </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© {{ "now"|date("Y") }} Petra Nedeljkovic</p>
+        </div>
+    </footer>
+    
+    <js-bottom-placeholder token="{{ placeholder_token }}">
+
+</body>
+</html>
